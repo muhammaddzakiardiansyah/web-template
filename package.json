@@ -1,0 +1,19 @@
+{
+  "name": "web-template",
+  "version": "1.0.0",
+  "description": "Application for template web",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+		"dev": "npx tailwindcss -i ./src/input.css -o ./src/output.css --watch"
+  },
+  "keywords": [
+    "Template",
+    "web"
+  ],
+  "author": "M Dzaki Ardiansyah",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.13"
+  }
+}

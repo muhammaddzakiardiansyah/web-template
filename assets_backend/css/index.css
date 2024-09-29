@@ -1,0 +1,103 @@
+#nipy-error,
+#nama_guru-error,
+#nuptk-error,
+#guru_mapel-error {
+	width: 100%;
+	margin-top: 15px;
+	margin-left: 20px;
+	color: red;
+	font-size: 15px;
+}
+
+#nipy,
+#nama_guru,
+#nuptk,
+#guru_mapel {
+	width: 100%;
+}
+
+#title-error,
+#berita_post-error,
+#image-error {
+	width: 100%;
+	margin-top: 15px;
+	margin-left: 20px;
+	color: red;
+	font-size: 15px;
+}
+
+#title,
+#berita_post {
+	width: 100%;
+	font-size: 14px;
+}
+
+#username-error,
+#password-error {
+	width: 100%;
+	margin-top: 15px;
+	margin-left: 20px;
+	color: red;
+	font-size: 15px;
+}
+
+#username,
+#password {
+	width: 100%;
+	font-size: 14px;
+}
+
+.alert-flashdata {
+	position: fixed;
+	bottom: 5%;
+	right: -300px;
+	padding: 15px;
+	border-radius: 5px;
+	z-index: 1000;
+	transition: right 0.5s ease-in-out;
+}
+
+.input-add-image {
+	display: none;
+}
+
+.label-add-image {
+	padding: 7px 12px;
+	background-color: #4e73df;
+	border-radius: 5px;
+	color: white;
+	font-weight: 700;
+}
+
+.label-add-image i {
+	font-size: 13px;
+	margin-right: 2px;
+}
+
+#title-news {
+	font-weight: 700;
+	font-size: 50px;
+}
+
+.login-page {
+	width: 100%;
+	height: 100vh;
+	background-color: #4e73df;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+@media only screen and (max-width: 1024px) {
+	#title-news {
+		font-weight: 600;
+		font-size: 40px;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	#title-news {
+		font-weight: 700;
+		font-size: 30px;
+	}
+}
